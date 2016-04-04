@@ -18,11 +18,6 @@ header('Content-type: text/html; charset='.CHARSET);
 // 设置默认时区
 date_default_timezone_set('Etc/GMT-8');
 
-test();
-function test()
-{
-	echo 'aaa';
-}
 // 加载Rookie核心类
 require './framework/classes/Rookie.php';
 
